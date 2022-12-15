@@ -217,8 +217,8 @@ a {
 /* 로그인 */
 /* 전체 영역 */
 .container {
-    /* position: relative; */
-   text-align: center;
+    position: relative;
+    top: 400px;
     background-color: white;
 }
 
@@ -228,10 +228,11 @@ a {
 .login-wrap {
     /* display:flex;
     justify-content: center; */
-    /* position: absolute;
+    position: absolute;
+    flex-wrap: wrap;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
     width: 350px;
     height: 600px;
     padding: 30px;
