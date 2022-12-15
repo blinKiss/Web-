@@ -217,12 +217,17 @@ a {
 /* 로그인 */
 /* 전체 영역 */
 .container {
-   
-    background-color: white;}
+    /* position: relative; */
+   text-align: center;
+    background-color: white;
+}
+
 
 
 /* 로그인 영역 */
 .login-wrap {
+    /* display:flex;
+    justify-content: center; */
     /* position: absolute;
     top: 50%;
     left: 50%;
