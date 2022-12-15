@@ -218,7 +218,7 @@ a {
 /* 전체 영역 */
 .container {
     position: relative;
-    top: 400px;
+    height:100vh;
     background-color: white;
 }
 
