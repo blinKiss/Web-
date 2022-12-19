@@ -23,7 +23,8 @@ body {
 section {
     min-height: 100vh;
     padding: 1rem 5%;
-    
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -53,7 +54,7 @@ header .logo span {
 header .navbar a {
     display: block;
     color: white;
-    margin: 2rem 0;
+    margin: 1rem 0;
     font-size: 1.5rem;
 }
 header .navbar a:hover{
@@ -70,7 +71,6 @@ header .sns a:hover{
     color: var(--main-color);
 }
 
-/* profile */
 .profile {
     display: flex;
     align-items: center;
@@ -167,7 +167,7 @@ header .sns a:hover{
     filter: brightness(20%);
 }
 
-/* 
+
 * { margin: 0; padding: 0;}
 
 body { 
@@ -181,10 +181,10 @@ body {
 .navbar{
     margin-left: 0;
     width: 100%;
-} */
+}
 
 /* reset */
-/* input {
+input {
     outline: none;
     border: none;
     background-color: transparent; /* 투명 */
@@ -194,7 +194,7 @@ a {
     text-decoration: none;
     color: black;
     text-align: center;
-} */
+}
 
 /* 로그인 */
 /* 전체 영역 */
@@ -212,7 +212,7 @@ a {
     /* display:flex;
     justify-content: center; */
     position: absolute;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
