@@ -23,8 +23,7 @@ body {
 section {
     min-height: 100vh;
     padding: 1rem 5%;
-    justify-content: center;
-    align-items: center;
+    
 
 }
 
@@ -71,6 +70,7 @@ header .sns a:hover{
     color: var(--main-color);
 }
 
+/* profile */
 .profile {
     display: flex;
     align-items: center;
@@ -167,7 +167,7 @@ header .sns a:hover{
     filter: brightness(20%);
 }
 
-
+/* 
 * { margin: 0; padding: 0;}
 
 body { 
@@ -181,10 +181,10 @@ body {
 .navbar{
     margin-left: 0;
     width: 100%;
-}
+} */
 
 /* reset */
-input {
+/* input {
     outline: none;
     border: none;
     background-color: transparent; /* 투명 */
@@ -194,7 +194,7 @@ a {
     text-decoration: none;
     color: black;
     text-align: center;
-}
+} */
 
 /* 로그인 */
 /* 전체 영역 */
@@ -387,6 +387,6 @@ a {
     /* z-index: 3; */
 }
 
-.btn-close {
+#btn-close {
     position: absolute;
 }
